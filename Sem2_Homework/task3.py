@@ -2,4 +2,5 @@
 
 n = int(input("Введите количество чисел:  "))
 
-print(sum([(1 + 1 / x) ** x for x in range(1, n+1)]))
+print(sum((1 + 1 / x) ** x for x in range(1, n+1)))
+
