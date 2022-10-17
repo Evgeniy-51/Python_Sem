@@ -2,6 +2,7 @@
 
 val = input("Введите вещественное число:  ")
 
-res = sum([int(x) if x.isdigit() else int(x.replace(x, '0')) for x in val])
+res = sum(int(x) for x in val if x.isdigit())
+
 
 print(f'Сумма цифр числа =  {res}')
