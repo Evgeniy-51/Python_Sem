@@ -3,4 +3,4 @@
 lst = [2, 3, 4, 5, 6]
 
 print([lst[i] * lst[len(lst)-i-1]
-       for i in range((len(lst)-1) // 2 + 1)])
+       for i in range((len(lst) + 1) // 2)])
