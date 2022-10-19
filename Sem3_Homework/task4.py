@@ -17,7 +17,7 @@ while int_part > 0:
 if fract_part != 0:
     result += '.'
     limit = 20
-    while fract_part > 0 and limit > 0:
+    while fract_part > 0 < limit:
         fract_part *= 2
         result += str(fract_part.quantize(Decimal('1'), rounding=ROUND_FLOOR))
         if fract_part >= 1:
