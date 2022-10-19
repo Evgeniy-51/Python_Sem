@@ -3,4 +3,4 @@
 lst = [45, 2, 77, 3, 34, 1, 84]
 
 print("Сумма = ",
-      sum(lst[i] for i in range(1, len(lst)-1, 2)))
+      sum(lst[i] for i in range(1, len(lst), 2)))
