@@ -46,14 +46,14 @@ for i in range(max_key, -1, -1):
     k = str(i)
     if k in dict1 and k in dict2:
         sum = dict1[k] + dict2[k]
-        res += f" + {str(sum)}{incut(i)}" if sum > 0 \
-            else f" - {str(abs(sum))}{incut(i)}"
+        res += f" + {sum}{incut(i)}" if sum > 0 \
+            else f" - {abs(sum)}{incut(i)}"
     elif k in dict1:
-        res += f" + {str(dict1[k])}{incut(i)}" if dict1[k] > 0 \
-            else f" {str(abs(dict1[k]))}{incut(i)}"
+        res += f" + {dict1[k]}{incut(i)}" if dict1[k] > 0 \
+            else f" {abs(dict1[k])}{incut(i)}"
     elif k in dict2:
-        res += f" + {str(dict2[k])}{incut(i)}" if dict2[k] > 0 \
-            else f" - {str(abs(dict2[k]))}{incut(i)}"
+        res += f" + {dict2[k]}{incut(i)}" if dict2[k] > 0 \
+            else f" - {abs(dict2[k])}{incut(i)}"
 res += ' = 0'
 if res[:3] == ' + ':
     res = res[3:]
