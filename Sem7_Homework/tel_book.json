@@ -1,0 +1,67 @@
+{
+  "response": [
+    {
+      "id": 1,
+      "first_name": "Sandra",
+      "last_name": "Gray",
+      "bdate": "21.9.1986",
+      "job_place": "NOVITEL corp.",
+      "tel": [
+        "+3802367895"
+      ]
+    },
+    {
+      "id": 2,
+      "first_name": "Alex",
+      "last_name": "Porter",
+      "bdate": "12.7.1987",
+      "job_place": "Uber",
+      "tel": [
+        "+571295075379",
+        "+571205839040"
+      ]
+    },
+    {
+      "id": 3,
+      "first_name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439",
+      "last_name": "\u041f\u0435\u0442\u0440\u043e\u0432",
+      "bdate": "6.8.1977",
+      "job_place": "\u041e\u041e\u041e \u0422\u0440\u0430\u043d\u0441\u043d\u0435\u0444\u0442\u044c",
+      "tel": [
+        "+79064537498"
+      ]
+    },
+    {
+      "id": 4,
+      "first_name": "\u0410\u043d\u043d\u0430",
+      "last_name": "\u0421\u043e\u043a\u043e\u043b\u043e\u0432\u0430",
+      "bdate": "2.4.1987",
+      "job_place": "\u041e\u041e\u041e \"\u0420\u043e\u043c\u0430\u0448\u043a\u0430\"",
+      "tel": [
+        "+78905478345",
+        "+79804657824"
+      ]
+    },
+    {
+      "id": 5,
+      "first_name": "Igor",
+      "last_name": "Suvorov",
+      "bdate": "9.6.2000",
+      "job_place": "\"BFF\" comp.",
+      "tel": [
+        "+56742920043"
+      ]
+    },
+    {
+      "id": 6,
+      "first_name": "Oleg",
+      "last_name": "Velichko",
+      "bdate": "11.11.2000",
+      "job_place": "jobless",
+      "tel": [
+        "+79004624862",
+        "+79026457296"
+      ]
+    }
+  ]
+}
